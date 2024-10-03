@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/logo/letter-monogram-logo_955379-17872.jpg" type="image/x-icon">
+    <title>Ashion</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+     <!-- sss -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <img src="assets/images/logo/logo.png" alt="logo">
+            <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Fashion.html">Fashion</a></li>
+                    <li><a class="dropdown-item" href="#">Electronic</a></li>
+                    <li><a class="dropdown-item" href="#">furniture</a></li>
+                    <li><a class="dropdown-item" href="#">Home appliance</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="icons">
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#"><i class="fa-regular fa-user"></i></a>
+                <a href="#"><i class="fa-regular fa-heart"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </div>
+             </div>
+        </div>
+    </nav>
+    <section class="container-fluid hero">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 hero-left">
+          <div class="title">
+            <h3>Fashion men and woman</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+            <a href="#">SHOP NOW</a>
+          </div>
+          <img src="assets/images/Fashion/portrait-smiling-beautiful-girl-her-handsome-boyfriend-woman-casual-summer-jeans-clothes-hugging_158538-5495.jpg" alt="img">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 hero-right">
+          <div class="row top">
+            <div class="col-md-6 col-sm-12 left">
+              <div class="title">
+                <h3>sports</h3>
+                <p>158 items</p>
+                <a href="#">SHOP NOW</a>
+              </div>
+              <img src="assets/images/sport/young-man-treadmill_97780-297.jpg" alt="img">
+            </div>
+            <div class="col-md-6 col-sm-12 right">
+              <div class="title">
+                <h3>Electronic</h3>
+                <p>230 items</p>
+                <a href="#">SHOP NOW</a>
+              </div>
+              <img src="assets/images/Electronic/c837a6_f58829a26e594ca3aa72383e19cf39b9~mv2.png" alt="img">
+            </div>
+          </div>
+          <div class="row bottom">
+            <div class="col-md-6 col-sm-12 left">
+              <div class="title">
+                <h3>furniture</h3>
+                <p>170 items</p>
+                <a href="#">SHOP NOW</a>
+              </div>
+              <img src="assets/images/furniture/3d-rendering-scandinavian-style-living-room-interior-mockup_36897-21476.jpg" alt="img">
+            </div>
+            <div class="col-md-6 col-sm-12 right">
+              <div class="title">
+                <h3>Home appliance</h3>
+                <p>95 items</p>
+                <a href="#">SHOP NOW</a>
+              </div>
+              <img src="assets/images/Home appliance/set-household-kitchen-technics-yellow-background-set-appliance-new-appartments-ecommerce-online-internet-store-delivering-appliances-concept_708636-1022.jpg" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container-fluid New-product-Home">
+      <div class="top-link d-md-flex justify-content-md-between">
+        <div>
+          <h2><span>New </span>product</h2>
+        </div>
+        <div class="filter">
+          <ul>
+            <li><button onclick="filterProducts('all' , this)">All</button></li>
+            <li><button onclick="filterProducts('Fashion' , this)" id="action" class="show active">Fashion</button></li>
+            <li><button onclick="filterProducts('sport' , this)">sports</button></li>
+            <li><button onclick="filterProducts('Electronic' , this)"">Electronic</button></li>
+            <li><button onclick="filterProducts('furniture' , this)">furniture</button></li>
+            <li><button onclick="filterProducts('Home-appliance' , this)">Home appliance</button></li>
+          </ul>
+        </div>
+      </div>
+      <div class="products">
+        <div class="row">
+          <!-- Fashion -->
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Fashion product show">
+            <div>
+              <span class="New">NEW</span>
+              <img src="assets/images/Fashion/product-1.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Buttons tweed blazer</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$59.0</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Fashion product show">
+            <div>
+              <span class="Sale">Sale</span>
+              <img src="assets/images/Fashion/product-2.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Flowy striped skirt</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price-Sale">$ 49.0 <span>$ 59.0</span></div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Fashion product show">
+            <div>
+              <span class="Out-Of">Out Of Stock</span>
+              <img src="assets/images/Fashion/product-3.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Cotton T-Shirt</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 59.0</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Fashion product show">
+            <div>
+              <img src="assets/images/Fashion/product-4.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Slim striped pocket shirt</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 59.0</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Fashion product show">
+            <div>
+              <img src="assets/images/Fashion/product-5.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Fit micro corduroy shirt</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$59.0</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Fashion product show">
+            <div>
+              <img src="assets/images/Fashion/product-6.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Tropical Kimono</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$59.0</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Fashion product show">
+            <div>
+              <img src="assets/images/Fashion/product-7.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Contrasting sunglasses</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$59.0</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Fashion product show">
+            <div>
+              <img src="assets/images/Fashion/product-8.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Water resistant backpack</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$59.0</div>
+            </div>
+          </div>
+          <!-- Electronic -->
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Electronic product">
+            <div>
+              <img src="assets/images/Electronic/phone-that-has-number-3-it_873925-1137183.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">iphone-15-pro-max</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 999</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Electronic product">
+            <div>
+              <img src="assets/images/Electronic/untitled-design-100_1288896-488.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">macbook</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 999</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Electronic product">
+            <div>
+              <img src="assets/images/Electronic/two-phones-are-side-by-side-one-which-is-blue_1028533-2114.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">iphone-15-pro</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 999</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Electronic product">
+            <div>
+              <img src="assets/images/Electronic/macbook-mockup-light-grey-background_1079878-427.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">macbook</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 999</div>
+            </div>
+          </div>
+          <!-- sport -->
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 furniture product">
+            <div>
+              <img src="assets/images/furniture/3d-rendered-minimal-style-modern-living-room-interior-design-with-modern-chair_932772-10883.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">modern chair white</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 260</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 furniture product">
+            <div>
+              <img src="assets/images/furniture/blue-wall-sofa_912524-14524.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">blue wall sofa</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 300</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 furniture product">
+            <div>
+              <img src="assets/images/furniture/green-chair-is-front-green-wall-with-picture-sunset-picture-mountain-lan_1271417-5908.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">green chair</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 299</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 furniture product">
+            <div>
+              <img src="assets/images/furniture/modern-living-room-interior-design_469760-24626.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">modern-living-room</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 350</div>
+            </div>
+          </div>
+          <!-- sport -->
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 sport product">
+            <div>
+              <img src="assets/images/sport/gym-with-word-gym-wall_992212-106163.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">black-silver treadmill gym</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 1200</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 sport product">
+            <div>
+              <img src="assets/images/sport/41z9u3Gb8NL._AC._SR240,240.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Resistance Bands</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 5</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 sport product">
+            <div>
+              <img src="assets/images/sport/black-silver-dumbbell-with-words-lg-it_992212-168864.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">black silver dumbbell</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 600</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 sport product">
+            <div>
+              <img src="assets/images/sport/exercise-bench-gym-equipment-front-brick-wall-3d-rendering_476612-4024.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">adbominal crunch </a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 400</div>
+            </div>
+          </div>
+          <!-- Home-appliance -->
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Home-appliance product">
+            <div>
+              <img src="assets/images/Home appliance/coffee-maker-with-time-11-00_1042554-4603.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">coffee maker</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 99</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Home-appliance product">
+            <div>
+              <img src="assets/images/Home appliance/toaster-oven-with-two-slices-toast-top-it_885831-18970.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">toaster oven</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 40</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Home-appliance product">
+            <div>
+              <img src="assets/images/Home appliance/brewing-wonders-unleashing-potential-electric-kettles_941561-27284.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">Philips electric kettle</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ 52</div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5 Home-appliance product">
+            <div>
+              <img src="assets/images/Home appliance/close-up-futuristic-soft-drink_23-2151281935.jpg" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#">futuristic soft drink</a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price">$ </div>
+            </div>
+          </div>
+          <!-- 
+          <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+            <div>
+              <img src="assets/images/" alt="image">
+            </div>
+            <div class="text mt-3">
+              <a href="#"></a>
+              <div class="icon">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <div class="price"></div>
+            </div>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+    <!-- Start Swiper-comment -->
+    <section class="container-fluid banner Swiper-comment">
+      <swiper-container class="mySwiper" space-between="30" pagination="true" pagination-clickable="true" 
+      autoplay-delay="2500" autoplay-disable-on-interaction="false">
+        <swiper-slide>
+          <div class="Swiper">
+            <div class="title">
+              <span>The Chloe Collection</span>
+              <h1>The Project Jacket</h1>
+              <a href="#">SHOP NOW</a>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="Swiper">
+            <div class="title">
+              <span>The Chloe Collection</span>
+              <h1>The Project Jacket</h1>
+              <a href="#">SHOP NOW</a>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="Swiper">
+            <div class="title">
+              <span>The Chloe Collection</span>
+              <h1>The Project Jacket</h1>
+              <a href="#">SHOP NOW</a>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </section>
+    <!-- end Swiper-comment --> 
+    <section class="container Hot-Best-Feature pt-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="name-sec">
+            <h4>HOT TREND</h4>
+            <span></span>
+          </div>
+          <div>
+            <div class="d-flex mt-5">
+              <div>
+                <img src="assets/images//Fashion/ht-1.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Chain bucket bag</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/ht-2.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Pendant earrings</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/ht-3.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Cotton T-Shirt</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="name-sec">
+            <h4>BEST SELLER</h4>
+            <span></span>
+          </div>
+          <div>
+            <div class="d-flex mt-5">
+              <div>
+                <img src="assets/images//Fashion/bs-1.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Cotton Pants</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/bs-2.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Zip-pockets pebbled totebriefcase</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/bs-3.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Round leather bag</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="name-sec">
+            <h4>FEATURE</h4>
+            <span></span>
+          </div>
+          <div>
+            <div class="d-flex mt-5">
+              <div>
+                <img src="assets/images//Fashion/f-1.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Bow wrap skirt</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/f-2.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Metallic earrings</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/f-3.jpg" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Flap cross-body bag</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="container discount-Home pt-5  pb-5">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <img src="assets/images/Fashion/discount.jpg" width="100%" alt="img-discount">
+        </div>
+        <div class="col-lg-6 col-sm-12 discount">
+          <div class="discount__text__title">
+            <h5>Discount</h5>
+            <h2>Summer 2019</h2>
+            <h5>Sale <span>50%</span></h5>
+          </div>
+          <div class="discount__countdown" id="countdown-time">
+            <div class="countdown__item">
+              <span id="Day"></span>
+              <p>Day</p> 
+            </div>
+            <div class="countdown__item">
+              <span id="houers"></span>
+              <p>Hour</p>
+            </div>
+            <div class="countdown__item">
+              <span id="minute"></span>
+              <p>Min</p>
+            </div>
+            <div class="countdown__item">
+              <span id="seconds"></span>
+              <p>Sec</p>
+            </div>
+          </div>
+          <a href="#">Shop now</a>
+        </div>
+      </div>
+    </section>
+    <section class="container icon-service pt-5">
+      <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images/logo/service-1.png" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Free Shiping</h4>
+                      <p>All orders over <span>$150</span></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-2.png" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Quick Payment</h4>
+                      <p>100% secure payment</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-3.png" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Free Returns</h4>
+                      <p>Money back in 30 days</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-4.png" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>24/7 Support</h4>
+                      <p>Get Quick Suppor</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="container-fluid pt-5">
+      <div class="row images">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images/Fashion/insta-1.jpg">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-2.jpg">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-3.jpg">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-4.jpg">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-5.jpg">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-6.jpg">
+          </div>
+      </div>
+    </section>
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <section class="Links"> 
+          <div class="container-fluid text-center text-md-start mt-5 mb-5">
+              <div class="row mt-3">
+                <div class="col-xl-4 col-lg-4 col-md-4 mx-xl-4 mb-4">
+                  <img src="assets/images//logo/logo.png" alt="logo">
+                  <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+                  <div class="payment">
+                      <img src="assets/images//logo/payment-1.png">
+                      <img src="assets/images//logo/payment-2.png">
+                      <img src="assets/images//logo/payment-3.png">
+                      <img src="assets/images//logo/payment-4.png">
+                      <img src="assets/images//logo/payment-5.png">
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Quick links</h6>
+                  <p><a href="#">Home</a></p>
+                  <p><a href="About.html">About</a></p>
+                  <p><a href="Blog.html">Blog</a></p>
+                  <p><a href="contact.html">contact</a></p>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Account</h6>
+                  <p><a href="#!">My Account</a></p>
+                  <p><a href="#!">Orders Tracking</a></p>
+                  <p><a href="#!">Checkout</a></p>
+                  <p><a href="#!">Wishlist</a></p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">NEWSLETTER</h6>
+                  <form action="#">
+                    <button type="submit" class="site-btn">Subscribe</button>
+                    <input type="email" name="email" placeholder="Email">
+                  </form>
+                  <div class="icon mt-3">
+                    <a href="#" class="text-reset"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="text-reset"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="text-reset"><i class="fab fa-google"></i></a>
+                    <a href="#" class="text-reset"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-reset"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="text-reset"><i class="fab fa-github"></i></a>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <div class="Copyright" >
+          <p>Copyright © 2024 All rights reserved | This template is made with  <i class="fa-solid fa-heart"></i> by Colorlib</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+  <script src="assets/js\bootstrap.bundle.min.js"></script>
+  <script src="assets/js\wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
