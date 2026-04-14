@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "title": "Fresh Silver",
+    "price": 600,
+    "category": "Refrigerators",
+    "image": "assets/images/Home appliance/Refrigerators/RT187740-ENV.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Sharp white",
+    "price": 500,
+    "category": "Refrigerators",
+    "image": "assets/images/Home appliance/Refrigerators/gola10080330057_2_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Fresh black",
+    "price": 500,
+    "category": "Refrigerators",
+    "image": "assets/images/Home appliance/Refrigerators/elgla33.jpg"
+  },
+    {
+    "id": 4,
+    "title": "Fresh wihte",
+    "price": 550,
+    "category": "Refrigerators",
+    "image": "assets/images/Home appliance/Refrigerators/GOLA912256-ENV.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Fresh black",
+    "price": 600,
+    "category": "Refrigerators",
+    "image": "assets/images/Home appliance/Refrigerators/GOLA500018706-ENV.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Sharp black",
+    "price": 500,
+    "category": "Refrigerators",
+    "image": "assets/images/Home appliance/Refrigerators/gola10080250012-env.jpg"
+  },
+    {
+    "id": 7,
+    "title": "Fresh Washing",
+    "price": 500,
+    "category": "washing",
+    "image": "assets/images/Home appliance/washing/as8210_3_.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Sharp Washing",
+    "price": 400,
+    "category": "washing",
+    "image": "assets/images/Home appliance/washing/SHAPPLA42676-ENV.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Haier Washing",
+    "price": 300,
+    "category": "washing",
+    "image": "assets/images/Home appliance/washing/gola13121570014.jpg"
+  },
+    {
+    "id": 10,
+    "title": "Fresh Washing",
+    "price": 400,
+    "category": "washing",
+    "image": "assets/images/Home appliance/washing/rata.135598.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Beko Washing",
+    "price": 350,
+    "category": "washing",
+    "image": "assets/images/Home appliance/washing/GOLA7175742500-ENV.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Fresh Fire",
+    "price": 500,
+    "category": "Air-conditioning",
+    "image": "assets/images/Home appliance/Air conditioning/golsa10130330001.jpg"
+  },
+  {
+    "id": 13,
+    "title": "Fresh Air",
+    "price": 400,
+    "category": "Air-conditioning",
+    "image": "assets/images/Home appliance/Air conditioning/Cairo-258.61793927.18-2.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Carrier Air",
+    "price": 450,
+    "category": "Air-conditioning",
+    "image": "assets/images/Home appliance/Air conditioning/airapp7-env.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Fresh Air",
+    "price": 500,
+    "category": "Air-conditioning",
+    "image": "assets/images/Home appliance/Air conditioning/CRACS232028-ENV.jpg"
+  },
+  {
+    "id": 16,
+    "title": "Sharp Air",
+    "price": 400,
+    "category": "Air-conditioning",
+    "image": "assets/images/Home appliance/Air conditioning/dawtk665037-m.jpg"
+  }
+]

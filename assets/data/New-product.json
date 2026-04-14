@@ -1,0 +1,254 @@
+[
+  {
+    "id": 1,
+    "title": "White coat",
+    "price": 50,
+    "category": "Fashion",
+    "image": "assets/images/Fashion/coats-woman/02078780450-000-p.jpg"
+  },
+  {
+    "id": 2,
+    "title": "cream jaket",
+    "price": 60,
+    "category": "Fashion",
+    "image": "assets/images/Fashion/jaket-woman/r211078a.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Olive  dresse",
+    "price": 60,
+    "category": "Fashion",
+    "image": "assets/images/Fashion/dresse-woman/O201115c_893093eb-e1ec-44bd-810f-e47dccdbf4e4.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Yallow T-shirt",
+    "price": 60,
+    "category": "Fashion",
+    "image": "assets/images/Fashion/T-shirts-woman/o189272a.webp"
+  },
+  {
+    "id": 5,
+    "title": "Rose T-shirt",
+    "price": 60,
+    "category": "Fashion",
+    "image": "assets/images/Fashion/T-shirts-woman/o189286a.jpg"
+  },
+  {
+    "id": 6,
+    "title": "White jaket",
+    "price": 60,
+    "category": "Fashion",
+    "image": "assets/images/Fashion/jaket-man/o197522a.jpg"
+  },
+  {
+    "id": 7,
+    "title": "Gray T-shirt",
+    "price": 55,
+    "category": "Fashion",
+    "image": "assets/images/Fashion/T-shirts-man/o189622a.webp"
+  },
+   {
+    "id": 8,
+    "title": "Black jaket",
+    "price": 60,
+    "category": "Fashion",
+    "image": "assets/images/Fashion/kids/boy/2615707أسود30-300x300.jpg"
+  },
+  {
+    "id": 1,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "sports",
+    "image": "assets/images/sport/Treadmills/61lk_mi6yxl._ac_sl1200_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "sports",
+    "image": "assets/images/sport/Treadmills/citysp1034-env_1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "sports",
+    "image": "assets/images/sport/Treadmills/treadmail.jpg"
+  },
+    {
+    "id": 4,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "sports",
+    "image": "assets/images/sport/Treadmills/whatsapp_image_2025-11-02_at_12.28.53_ca9b66ff.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "sports",
+    "image": "assets/images/sport/Treadmills/citysp1039-env_thumb.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "sports",
+    "image": "assets/images/sport/Elliptical Trainers/af10142050-env.jpg"
+  },
+    {
+    "id": 7,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "sports",
+    "image": "assets/images/sport/Elliptical Trainers/af10142050-1.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "sports",
+    "image": "assets/images/sport/Elliptical Trainers/alf274-env.jpg"
+  },
+  {
+    "id": 9,
+    "title": "iphone 17 pro",
+    "price": 800,
+    "category": "Electronic",
+    "image": "assets/images/Electronic/phone/Apple iphone mobile 17 pro max1-600x600.jpg"
+  },
+  {
+    "id": 10,
+    "title": "iPhone 17 Pro",
+    "price": 700,
+    "category": "Electronic",
+    "image": "assets/images/Electronic/phone/Apple iPhone mobile 17 Pro-600x600.jpg"
+  },
+  {
+    "id": 11,
+    "title": "huawei fit-4",
+    "price": 150,
+    "category": "Electronic",
+    "image": "assets/images/Electronic/Smart Watch/huawei_watch_fit_4_46_mm-black.png"
+  },{
+    "id": 12,
+    "title": "huawei fit-4",
+    "price": 150,
+    "category": "Electronic",
+    "image": "assets/images/Electronic/Smart Watch/huawei_watch_fit_4_46_mm-white_6_.png"
+  },
+  {
+    "id": 13,
+    "title": "airpods max",
+    "price": 500,
+    "category": "Electronic",
+    "image": "assets/images/Electronic/AirPods/airpods_max_purple__d9y3g3n7cnyq_large.png"
+  },
+  {
+    "id": 14,
+    "title": "OPN-Snap-373",
+    "price": 90,
+    "category": "Electronic",
+    "image": "assets/images/Electronic/AirPods/OPN-373-lightgold.png"
+  },
+  {
+    "id": 15,
+    "title": "ipad pro-m4",
+    "price": 350,
+    "category": "Electronic",
+    "image": "assets/images/Electronic/ipad/apple-ipad-pro-m4-wifi-tablet-256gb-13-inch-with-international-warranty1-600x600.jpg"
+  },
+  {
+    "id": 16,
+    "title": "S25 Ultra",
+    "price": 650,
+    "category": "Electronic",
+    "image": "assets/images/Electronic/phone/Samsung Galaxy S25 Ultra 256GB -black-600x600.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Living room",
+    "price": 600,
+    "category": "furniture",
+    "image": "assets/images/furniture/room/stylish-modern-living-room-with-cozy-furniture-artful-decor_1294860-180151.jpg"
+  },
+  
+    {
+    "id": 18,
+    "title": "Living room",
+    "price": 500,
+    "category": "furniture",
+    "image": "assets/images/furniture/room/modern-living-room-with-natural-light.webp"
+  },
+  {
+    "id": 19,
+    "title": "Living room",
+    "price": 600,
+    "category": "furniture",
+    "image": "assets/images/furniture/room/minimal-furniture-living-room-simple-minimalistic-furniture-furniture-interior-design_71956-42163.jpg"
+  },
+    {
+    "id": 20,
+    "title": "Living room",
+    "price": 550,
+    "category": "furniture",
+    "image": "assets/images/furniture/room/realistic-interior-design-with-furniture.webp"
+  },
+  {
+    "id": 21,
+    "title": "Sofa Gray",
+    "price": 200,
+    "category": "furniture",
+    "image": "assets/images/furniture/sofa/pexels-artbovich-6588592.webp"
+  },
+  {
+    "id": 22,
+    "title": "Sofa Brown",
+    "price": 250,
+    "category": "furniture",
+    "image": "assets/images/furniture/sofa/pexels-marko-stojkovic-1187731-17264274.webp"
+  },
+  {
+    "id": 23,
+    "title": "chair green",
+    "price": 100,
+    "category": "furniture",
+    "image": "assets/images/furniture/chair/photo-modern-luxury-arm-chair-furniture-design_763111-22102.jpg"
+  },
+    {
+    "id": 24,
+    "title": "chair orange",
+    "price": 100,
+    "category": "furniture",
+    "image": "assets/images/furniture/chair/photo-modern-luxury-arm-chair-furniture-design_763111-22116.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Fresh Fire",
+    "price": 500,
+    "category": "Home-appliance",
+    "image": "assets/images/Home appliance/Air conditioning/golsa10130330001.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Fresh Washing",
+    "price": 500,
+    "category": "Home-appliance",
+    "image": "assets/images/Home appliance/washing/as8210_3_.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Fresh black",
+    "price": 500,
+    "category": "Home-appliance",
+    "image": "assets/images/Home appliance/Refrigerators/elgla33.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Sharp Air",
+    "price": 400,
+    "category": "Home-appliance",
+    "image": "assets/images/Home appliance/Air conditioning/dawtk665037-m.jpg"
+  }
+]

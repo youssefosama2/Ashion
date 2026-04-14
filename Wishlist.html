@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/logo/letter-monogram-logo_955379-17872.jpg" type="image/x-icon">
+    <title>Ashion</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+     <!-- sss -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.23.0/sweetalert2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <img src="assets/images/logo/logo.png" alt="logo">
+            <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Fashion.html">Fashion</a></li>
+                    <li><a class="dropdown-item" href="Electronic.html">Electronic</a></li>
+                    <li><a class="dropdown-item" href="furniture.html">furniture</a></li>
+                    <li><a class="dropdown-item" href="Home-appliance.html">Home appliance</a></li>
+                    <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="icons">
+                <a href="#1"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#!"><i class="fa-regular fa-user"></i></a>
+                <span>
+                  <a href="Wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                  <span class="wishlist-count" id="wishlist-count"></span>
+                </span>
+                <span>
+                  <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                  <span class="cart-shop" id="cart-count"></span>
+                </span>
+              </div>
+            </div>
+        </div>
+    </nav>
+    <section class="contact container wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
+        <div class="page">
+            <a href="index.html"><i class="fa-solid fa-house"></i> Home <i class="fa-solid fa-chevron-right"></i></a>
+            <p>Wishlist</p>
+        </div>
+    </section>
+    <section class="container-fluid New-product-Home All-pro pro-Wishlist">
+        <div id="products" class="row products"></div>
+        <div id="empty" class="empty wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+          <h3>Your Wishlist is Empty</h3>
+          <a href="Fashion.html">Continue Shopping</a>
+        </div>
+        <div class="pagination" id="pagination"></div>
+        <div id="quickModal" class="quick-modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeQuickView()">&times;</span>
+            <img id="modalImg">
+          </div>
+        </div>
+    </section>
+    <section class="container icon-service pt-5 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+      <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images/logo/service-1.png" loading="lazy" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Free Shiping</h4>
+                      <p>All orders over <span>$150</span></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-2.png" loading="lazy" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Quick Payment</h4>
+                      <p>100% secure payment</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-3.png" loading="lazy" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Free Returns</h4>
+                      <p>Money back in 30 days</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-4.png" loading="lazy" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>24/7 Support</h4>
+                      <p>Get Quick Suppor</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="container-fluid pt-5 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+      <div class="row images">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images/Fashion/insta-1.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-2.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-3.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-4.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-5.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-6.jpg" loading="lazy">
+          </div>
+      </div>
+    </section>
+    <section>
+      <button id="scrollToTopBtn"><i class="fa-solid fa-chevron-up"></i></button>
+    </section>
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+      <section class="Links"> 
+          <div class="container-fluid text-center text-md-start mt-5 mb-5">
+              <div class="row mt-3">
+                <div class="col-xl-4 col-lg-4 col-md-4 mx-xl-4 mb-4">
+                  <img src="assets/images//logo/logo.png" alt="logo">
+                  <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+                  <div class="payment">
+                      <img src="assets/images//logo/payment-1.png" loading="lazy">
+                      <img src="assets/images//logo/payment-2.png" loading="lazy">
+                      <img src="assets/images//logo/payment-3.png" loading="lazy">
+                      <img src="assets/images//logo/payment-4.png" loading="lazy">
+                      <img src="assets/images//logo/payment-5.png" loading="lazy">
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Quick links</h6>
+                  <p><a href="index.html">Home</a></p>
+                  <p><a href="About.html">About</a></p>
+                  <p><a href="Blog.html">Blog</a></p>
+                  <p><a href="contact.html">contact</a></p>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Account</h6>
+                  <p><a href="#!">My Account</a></p>
+                  <p><a href="Shopping-cart.html">Orders cart</a></p>
+                  <p><a href="checkout.html ">Checkout</a></p>
+                  <p><a href="Wishlist.html">Wishlist</a></p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">NEWSLETTER</h6>
+                  <form action="#">
+                    <button type="submit" class="site-btn">Subscribe</button>
+                    <input type="email" name="email" placeholder="Email">
+                  </form>
+                  <div class="icon mt-3">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <div class="Copyright" >
+          <p>Copyright © 2026 All rights reserved | This template is made with  <i class="fa-solid fa-heart"></i> by youssef osama</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  <script src="assets/js\bootstrap.bundle.min.js"></script>
+  <script src="assets/js\wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.23.0/sweetalert2.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+  <script src="assets/js/wishlist.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

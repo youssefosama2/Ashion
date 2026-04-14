@@ -1,0 +1,434 @@
+[
+  {
+    "id": 1,
+    "title": "iphone 17 pro",
+    "price": 800,
+    "category": "mobile-iphone",
+    "image": "assets/images/Electronic/phone/Apple iphone mobile 17 pro max1-600x600.jpg"
+  },
+  {
+    "id": 2,
+    "title": "iPhone 17 Pro",
+    "price": 700,
+    "category": "mobile-iphone",
+    "image": "assets/images/Electronic/phone/Apple iPhone mobile 17 Pro-600x600.jpg"
+  },
+  {
+    "id": 3,
+    "title": "iphone 17",
+    "price": 650,
+    "category": "mobile-iphone",
+    "image": "assets/images/Electronic/phone/Apple iphone Mobile 17-600x600.jpg"
+  },
+    {
+    "id": 4,
+    "title": "iPhone 16 Pro",
+    "price": 650,
+    "category": "mobile-iphone",
+    "image": "assets/images/Electronic/phone/iPhone 16 Pro Max 11-600x600.jpg"
+  },
+  {
+    "id": 5,
+    "title": "iphone 16",
+    "price": 600,
+    "category": "mobile-iphone",
+    "image": "assets/images/Electronic/phone/Apple iphone mobile 16  54-600x600.jpg"
+  },
+  {
+    "id": 6,
+    "title": "iphone 15 pro",
+    "price": 650,
+    "category": "mobile-iphone",
+    "image": "assets/images/Electronic/phone/Apple iphone mobile 15   2-600x600.jpg"
+  },
+    {
+    "id": 7,
+    "title": "iphone 15",
+    "price": 600,
+    "category": "mobile-iphone",
+    "image": "assets/images/Electronic/phone/iPhone 15 128GB-600x600.jpg"
+  },
+  {
+    "id": 8,
+    "title": "iphone 16",
+    "price": 650,
+    "category": "mobile-iphone",
+    "image": "assets/images/Electronic/phone/16.2-600x600.jpg"
+  },
+  {
+    "id": 9,
+    "title": "S25 Ultra",
+    "price": 650,
+    "category": "mobile-Samsung",
+    "image": "assets/images/Electronic/phone/Samsung Galaxy S25 Ultra 256GB -black-600x600.jpg"
+  },
+    {
+    "id": 10,
+    "title": "galaxy a56",
+    "price": 450,
+    "category": "mobile-Samsung",
+    "image": "assets/images/Electronic/phone/samsung mobile galaxy a56 5g dual sim    0-600x600.jpg"
+  },
+  {
+    "id": 11,
+    "title": "galaxy a26",
+    "price": 400,
+    "category": "mobile-Samsung",
+    "image": "assets/images/Electronic/phone/samsung-mobile-a266b-galaxy-a26-600x600.jpg"
+  },
+  {
+    "id": 12,
+    "title": "galaxy a36",
+    "price": 400,
+    "category": "mobile-Samsung",
+    "image": "assets/images/Electronic/phone/samsung-mobile-a366b-galaxy-a36-600x600.jpg"
+  },
+  {
+    "id": 13,
+    "title": "galaxy a56",
+    "price": 450,
+    "category": "mobile-Samsung",
+    "image": "assets/images/Electronic/phone/samsung-mobile-a566b-galaxy-a56-600x600.jpg"
+  },
+  {
+    "id": 14,
+    "title": "galaxy A07",
+    "price": 350,
+    "category": "mobile-Samsung",
+    "image": "assets/images/Electronic/phone/Samsung-mobile-Galaxy-A07 with free gift-600x600.jpg"
+  },
+  {
+    "id": 15,
+    "title": "galaxy a36",
+    "price": 400,
+    "category": "mobile-Samsung",
+    "image": "assets/images/Electronic/phone/21579-600x600.jpg"
+  },
+  {
+    "id": 16,
+    "title": "galaxy a26",
+    "price": 400,
+    "category": "mobile-Samsung",
+    "image": "assets/images/Electronic/phone/656456-600x600.jpg"
+  },
+  {
+    "id": 17,
+    "title": "i3 1215u",
+    "price": 500,
+    "category": "Laptop-Lenovo",
+    "image": "assets/images/Electronic/laptop/1-600x600.jpg"
+  },
+  {
+    "id": 18,
+    "title": "i5-12600HX",
+    "price": 600,
+    "category": "Laptop-Lenovo",
+    "image": "assets/images/Electronic/laptop/LOQ-12600HX-i5-12-600x600.jpg"
+  },
+  {
+    "id": 19,
+    "title": "i7-13620h",
+    "price": 550,
+    "category": "Laptop-Lenovo",
+    "image": "assets/images/Electronic/laptop/11 copy-600x600.jpg"
+  },
+  {
+    "id": 20,
+    "title": "i7-1255u",
+    "price": 500,
+    "category": "Laptop-Lenovo",
+    "image": "assets/images/Electronic/laptop/111-600x600.jpg"
+  },
+  {
+    "id": 21,
+    "title": "i7-13620h ",
+    "price": 600,
+    "category": "Laptop-Lenovo",
+    "image": "assets/images/Electronic/laptop/5-600x600 (1).jpg"
+  },
+  {
+    "id": 22,
+    "title": "i5-12450hx",
+    "price": 600,
+    "category": "Laptop-Lenovo",
+    "image": "assets/images/Electronic/laptop/5-600x600.jpg"
+  },
+  {
+    "id": 23,
+    "title": "i7 13650hx",
+    "price": 650,
+    "category": "Laptop-Lenovo",
+    "image": "assets/images/Electronic/laptop/lenovo loq  intel core i7 13650hx 14 cores 24gb ram ddr5 512gb ssd rtx 4050 6gb 15.6 fhd-600x600.jpg"
+  },
+  {
+    "id": 24,
+    "title": "LOQ-Essential",
+    "price": 550,
+    "category": "Laptop-Lenovo",
+    "image": "assets/images/Electronic/laptop/Lenovo-LOQ-Essential-600x600.jpg"
+  },
+  {
+    "id": 25,
+    "title": "Dell i7-1355u",
+    "price": 600,
+    "category": "Laptop-Dell",
+     "image": "assets/images/Electronic/laptop/laptop-dell-vostro-3530-i7-1355u-8g-512ssd-intel-uhd-15.6-fhd-6-600x600.jpg"
+  },
+  {
+    "id": 26,
+    "title": "Dell i3-1215U1",
+    "price": 500,
+    "category": "Laptop-Dell",
+    "image": "assets/images/Electronic/laptop/Laptop-Dell-Vostro-3520-Intel-Core-i3-1215U1-600x600.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Dell i3-1215U",
+    "price": 550,
+    "category": "Laptop-Dell",
+    "image": "assets/images/Electronic/laptop/Laptop Dell 3520 1215U- 1255U-1255U iris -1215U i3 - 1-600x600.jpg"
+  },
+  {
+    "id": 28,
+    "title": "Dell i5-13450h",
+    "price": 600,
+    "category": "Laptop-Dell",
+    "image": "assets/images/Electronic/laptop/9-600x600.jpg"
+  },
+  {
+    "id": 29,
+    "title": "Dell i5-1334u",
+    "price": 500,
+    "category": "Laptop-Dell",
+    "image": "assets/images/Electronic/laptop/2-600x600.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Apple Series 11",
+    "price": 300,
+    "category": "Smart-Watch-Apple",
+    "image": "assets/images/Electronic/Smart Watch/watch-card-40-hermes-202509.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Apple Ultra 3",
+    "price": 350,
+    "category": "Smart-Watch-Apple",
+    "image": "assets/images/Electronic/Smart Watch/watch-card-40-hermes-ultra-202603.jpg"
+  },
+  {
+    "id": 32,
+    "title": "Apple Series 11",
+    "price": 300,
+    "category": "Smart-Watch-Apple",
+    "image": "assets/images/Electronic/Smart Watch/watch-card-40-s11-202509_GEO_US.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Apple SE 3",
+    "price": 250,
+    "category": "Smart-Watch-Apple",
+    "image": "assets/images/Electronic/Smart Watch/watch-card-40-se-202603.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Apple Ultra 3",
+    "price": 350,
+    "category": "Smart-Watch-Apple",
+    "image": "assets/images/Electronic/Smart Watch/watch-card-40-ultra3-202509_GEO_US.jpg"
+  },
+  {
+    "id": 35,
+    "title": "huawei fit-3",
+    "price": 100,
+    "category": "Smart-Watch-huawei",
+    "image": "assets/images/Electronic/Smart Watch/huawei_watch_fit_3_-_46_mm_1_.jpg"
+  },
+  {
+    "id": 36,
+    "title": "huawei fit-4",
+    "price": 150,
+    "category": "Smart-Watch-huawei",
+    "image": "assets/images/Electronic/Smart Watch/huawei_watch_fit_4_46_mm-black.png"
+  },
+  {
+    "id": 37,
+    "title": "huawei fit-4",
+    "price": 150,
+    "category": "Smart-Watch-huawei",
+    "image": "assets/images/Electronic/Smart Watch/huawei_watch_fit_4_46_mm-white_6_.png"
+  },
+  {
+    "id": 38,
+    "title": "huawei gt-6",
+    "price": 150,
+    "category": "Smart-Watch-huawei",
+    "image": "assets/images/Electronic/Smart Watch/huawei_watch_gt_6_46mm_fiuoroelastomer_6__1.jpg"
+  },
+  {
+    "id": 39,
+    "title": "huawei gt-4",
+    "price": 100,
+    "category": "Smart-Watch-huawei",
+    "image": "assets/images/Electronic/Smart Watch/watch_gt_4_41mm_black_2_.png"
+  },
+  {
+    "id": 40,
+    "title": "airpods max",
+    "price": 500,
+    "category": "Airbuds-apple",
+    "image": "assets/images/Electronic/AirPods/airpods_max_purple__d9y3g3n7cnyq_large.png"
+  },
+  {
+    "id": 41,
+    "title": "airpods-4",
+    "price": 150,
+    "category": "Airbuds-apple",
+    "image": "assets/images/Electronic/AirPods/airpods_4__duu096sk2f0i_large_2x.png"
+  },
+  {
+    "id": 42,
+    "title": "airpods pro-3",
+    "price": 250,
+    "category": "Airbuds-apple",
+    "image": "assets/images/Electronic/AirPods/airpods_pro_3__f5sr1zf1sc6e_large_2x.png"
+  },{
+    "id": 43,
+    "title": "airpods-4",
+    "price": 150,
+    "category": "Airbuds-apple",
+    "image": "assets/images/Electronic/AirPods/airpods_4_noise_cancellation__f2m5selau1ei_large_2x.png"
+  },
+  {
+    "id": 44,
+    "title": "airpods max",
+    "price": 500,
+    "category": "Airbuds-apple",
+    "image": "assets/images/Electronic/AirPods/airpods_max_orange__gln3ifz5o9ei_large.png"
+  },
+  {
+    "id": 45,
+    "title": "OPN-Snap-373",
+    "price": 90,
+    "category": "Airbuds-Oraimo",
+    "image": "assets/images/Electronic/AirPods/OPN-373-lightgold.png"
+  },
+  {
+    "id": 46,
+    "title": "OPN-Snap-675",
+    "price": 100,
+    "category": "Airbuds-Oraimo",
+    "image": "assets/images/Electronic/AirPods/OPN-675-1080-1.png"
+  },
+  {
+    "id": 47,
+    "title": "SpaceBuds Lite",
+    "price": 90,
+    "category": "Airbuds-Oraimo",
+    "image": "assets/images/Electronic/AirPods/OTW-324-1080-b.png"
+  },
+  {
+    "id": 48,
+    "title": "FreePods Neo",
+    "price": 80,
+    "category": "Airbuds-Oraimo",
+    "image": "assets/images/Electronic/AirPods/OTW-330S-black.png"
+  },
+  {
+    "id": 49,
+    "title": "Space Buds",
+    "price": 100,
+    "category": "Airbuds-Oraimo",
+    "image": "assets/images/Electronic/AirPods/SpaceBuds-OTW-630.png"
+  },{
+    "id": 50,
+    "title": "ipad pro-m4",
+    "price": 350,
+    "category": "ipad-iphone",
+    "image": "assets/images/Electronic/ipad/apple-ipad-pro-m4-wifi-tablet-256gb-13-inch-with-international-warranty1-600x600.jpg"
+  },
+  {
+    "id": 51,
+    "title": "ipad air-m3",
+    "price": 250,
+    "category": "ipad-iphone",
+    "image": "assets/images/Electronic/ipad/ipad-air-m3-128gb-wi-fi-13-inch-with-international-warranty-600x600.jpg"
+  },
+  {
+    "id": 52,
+    "title": "ipad air-m3",
+    "price": 250,
+    "category": "ipad-iphone",
+    "image": "assets/images/Electronic/ipad/ipad-air-m3-128gb-wi-fi-13-inch-with-international-warranty3-600x600.jpg"
+  },
+  {
+    "id": 53,
+    "title": "ipad 9th",
+    "price": 200,
+    "category": "ipad-iphone",
+    "image": "assets/images/Electronic/ipad/New Project(4)-600x600.jpg"
+  },
+  {
+    "id": 54,
+    "title": "ipad a16",
+    "price": 150,
+    "category": "ipad-iphone",
+    "image": "assets/images/Electronic/ipad/1-600x600.jpg"
+  },
+  {
+    "id": 55,
+    "title": "ipad a16",
+    "price": 150,
+    "category": "ipad-iphone",
+    "image": "assets/images/Electronic/ipad/Untitled-1-600x600.jpg"
+  },
+  {
+    "id": 56,
+    "title": "ipad a16",
+    "price": 150,
+    "category": "ipad-iphone",
+    "image": "assets/images/Electronic/ipad/2-600x600.jpg"
+  },
+  {
+    "id": 57,
+    "title": "Tab s10-plus",
+    "price": 400,
+    "category": "ipad-Samsung",
+    "image": "assets/images/Electronic/ipad/samsung-galaxy-tab-s10-fe-plus-5g-1-600x600.jpg"
+  },
+  {
+    "id": 58,
+    "title": "Tab a49",
+    "price": 250,
+    "category": "ipad-Samsung",
+    "image": "assets/images/Electronic/ipad/6-600x600.jpg"
+  },
+  {
+    "id": 59,
+    "title": "Tab s10-fe",
+    "price": 300,
+    "category": "ipad-Samsung",
+    "image": "assets/images/Electronic/ipad/samsung-galaxy-tab-s10-fe-5g-128gb-8gb-ram-10.9-inch-with-s-pen6-600x600.jpg"
+  },
+  {
+    "id": 60,
+    "title": "Tab s6-Lite",
+    "price": 250,
+    "category": "ipad-Samsung",
+    "image": "assets/images/Electronic/ipad/New Project (3)-600x600.jpg"
+  },
+  {
+    "id": 61,
+    "title": "Tab s10-fe",
+    "price": 300,
+    "category": "ipad-Samsung",
+    "image": "assets/images/Electronic/ipad/samsung-galaxy-tab-s10-fe-5g-256gb-12gb-ram-10.9-inch-with-s-pen-600x600.jpg"
+  },
+  {
+    "id": 62,
+    "title": "Tab a49",
+    "price": 250,
+    "category": "ipad-Samsung",
+    "image": "assets/images/Electronic/ipad/7-600x600.jpg"
+  }
+]

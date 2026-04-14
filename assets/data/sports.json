@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "Treadmills",
+    "image": "assets/images/sport/Treadmills/61lk_mi6yxl._ac_sl1200_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "Treadmills",
+    "image": "assets/images/sport/Treadmills/citysp1034-env_1.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "Treadmills",
+    "image": "assets/images/sport/Treadmills/treadmail.jpg"
+  },
+    {
+    "id": 4,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "Treadmills",
+    "image": "assets/images/sport/Treadmills/whatsapp_image_2025-11-02_at_12.28.53_ca9b66ff.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Treadmill 150KG",
+    "price": 400,
+    "category": "Treadmills",
+    "image": "assets/images/sport/Treadmills/citysp1039-env_thumb.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "Elliptical-Trainers",
+    "image": "assets/images/sport/Elliptical Trainers/af10142050-env.jpg"
+  },
+    {
+    "id": 7,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "Elliptical-Trainers",
+    "image": "assets/images/sport/Elliptical Trainers/af10142050-1.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "Elliptical-Trainers",
+    "image": "assets/images/sport/Elliptical Trainers/alf274-env.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "Elliptical-Trainers",
+    "image": "assets/images/sport/Elliptical Trainers/alf249-4.jpg"
+  },
+    {
+    "id": 10,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "Elliptical-Trainers",
+    "image": "assets/images/sport/Elliptical Trainers/megas14.jpg"
+  },
+  {
+    "id": 11,
+    "title": "Elliptical Trainers",
+    "price": 300,
+    "category": "Elliptical-Trainers",
+    "image": "assets/images/sport/Elliptical Trainers/citrc324.jpg"
+  }
+]

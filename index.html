@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/images/logo/letter-monogram-logo_955379-17872.jpg" type="image/x-icon">
+    <title>Ashion</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+     <!-- sss -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.23.0/sweetalert2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-json="New-product.json">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container">
+            <img src="assets/images/logo/logo.png" alt="logo">
+            <button class="navbar-toggler button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#!">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="About.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Shop
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="Fashion.html">Fashion</a></li>
+                    <li><a class="dropdown-item" href="Electronic.html">Electronic</a></li>
+                    <li><a class="dropdown-item" href="furniture.html">furniture</a></li>
+                    <li><a class="dropdown-item" href="Home-appliance.html">Home appliance</a></li>
+                    <li><a class="dropdown-item" href="sports.html">Sports</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <div class="icons">
+                <a href="#!"><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="#!"><i class="fa-regular fa-user"></i></a>
+                <span>
+                  <a href="Wishlist.html"><i class="fa-regular fa-heart"></i></a>
+                  <span class="wishlist-count" id="wishlist-count"></span>
+                </span>
+                <span>
+                  <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+                  <span class="cart-shop" id="cart-count"></span>
+                </span>
+              </div>
+             </div>
+        </div>
+    </nav>    
+    <section class="container-fluid hero">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 col-sm-12 hero-left wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+          <div class="title">
+            <h1>Fashion</h1>
+            <p>Discover the latest trends and elevate your style with our new fashion collection</p>
+            <a href="Fashion.html">SHOP NOW</a>
+          </div>
+          <img src="assets/images/Fashion/portrait-smiling-beautiful-girl-her-handsome-boyfriend-woman-casual-summer-jeans-clothes-hugging_158538-5495.jpg" loading="lazy" alt="img">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 hero-right wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+          <div class="row top">
+            <div class="col-md-6 col-sm-12 left">
+              <div class="title">
+                <h3>sports</h3>
+                <p>158 items</p>
+                <a href="sports.html">SHOP NOW</a>
+              </div>
+              <img src="assets/images/sport/young-adult-exercising-home_23-2150164752.jpg" loading="lazy" alt="img">
+            </div>
+            <div class="col-md-6 col-sm-12 right">
+              <div class="title">
+                <h3>Electronic</h3>
+                <p>230 items</p>
+                <a href="Electronic.html">SHOP NOW</a>
+              </div>
+              <img src="assets/images/Electronic/c837a6_f58829a26e594ca3aa72383e19cf39b9~mv2.webp" loading="lazy" alt="img">
+            </div>
+          </div>
+          <div class="row bottom">
+            <div class="col-md-6 col-sm-12 left">
+              <div class="title">
+                <h3>furniture</h3>
+                <p>170 items</p>
+                <a href="furniture.html">SHOP NOW</a>
+              </div>
+              <img src="assets/images/furniture/3d-rendering-scandinavian-style-living-room-interior-mockup_36897-21476.jpg" loading="lazy" alt="img">
+            </div>
+            <div class="col-md-6 col-sm-12 right">
+              <div class="title">
+                <h3>Home appliance</h3>
+                <p>95 items</p>
+                <a href="Home-appliance.html">SHOP NOW</a>
+              </div>
+              <img src="assets/images/Home appliance/2106.q703.016.S.m004.c10.household appliance realistic.webp" loading="lazy" alt="img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>'
+    <section class="container-fluid New-product-Home All-pro">
+      <div class="top-link d-md-flex justify-content-md-between">
+        <div>
+          <h2 class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s"><span>New </span>product</h2>
+        </div>
+        <div class="filter wow fadeInRight" data-wow-duration="2s" data-wow-delay=".2s">
+          <ul>
+            <li><button onclick="filterProducts('Fashion', this)" class="active">Fashion</button></li>
+            <li><button onclick="filterProducts('sports', this)">sports</button></li>
+            <li><button onclick="filterProducts('Electronic', this)">Electronic</button></li>
+            <li><button onclick="filterProducts('furniture', this)">furniture</button></li>
+            <li><button onclick="filterProducts('Home-appliance', this)">Home appliance</button></li>
+          </ul>
+        </div>
+      </div>
+      <div id="products" class="row products"></div>
+      <div class="pagination" id="pagination"></div>
+      <div id="quickModal" class="quick-modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeQuickView()">&times;</span>
+            <img id="modalImg">
+          </div>
+      </div>
+    </section>
+    <section class="container-fluid banner Swiper-comment wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+      <swiper-container class="mySwiper" space-between="30" pagination="true" pagination-clickable="true" 
+      autoplay-delay="2500" autoplay-disable-on-interaction="false">
+        <swiper-slide>
+          <div class="Swiper">
+            <div class="title">
+              <span>The Chloe Collection</span>
+              <h1>The Project Jacket</h1>
+              <a href="Fashion.html">SHOP NOW</a>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="Swiper">
+            <div class="title">
+              <span>The Chloe Collection</span>
+              <h1>The Project Coats</h1>
+              <a href="Fashion.html">SHOP NOW</a>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div class="Swiper">
+            <div class="title">
+              <span>The Chloe Collection</span>
+              <h1>The Project T-shirts</h1>
+              <a href="Fashion.html">SHOP NOW</a>
+            </div>
+          </div>
+        </swiper-slide>
+      </swiper-container>
+    </section>
+    <section class="container Hot-Best-Feature pt-5">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
+          <div class="name-sec">
+            <h4>HOT TREND</h4>
+            <span></span>
+          </div>
+          <div>
+            <div class="d-flex mt-5">
+              <div>
+                <img src="assets/images//Fashion/ht-1.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Chain bucket bag</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/ht-2.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Pendant earrings</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/ht-3.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Cotton T-Shirt</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+          <div class="name-sec">
+            <h4>BEST SELLER</h4>
+            <span></span>
+          </div>
+          <div>
+            <div class="d-flex mt-5">
+              <div>
+                <img src="assets/images//Fashion/bs-1.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Cotton Pants</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/bs-2.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Zip-pockets pebbled totebriefcase</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/bs-3.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Round leather bag</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInRight" data-wow-duration="2s" data-wow-delay=".2s">
+          <div class="name-sec">
+            <h4>FEATURE</h4>
+            <span></span>
+          </div>
+          <div>
+            <div class="d-flex mt-5">
+              <div>
+                <img src="assets/images//Fashion/f-1.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Bow wrap skirt</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/f-2.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Metallic earrings</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+            <div class="d-flex">
+              <div>
+                <img src="assets/images//Fashion/f-3.jpg" loading="lazy" alt="image">
+              </div>
+              <div class="mb-5 ms-3">
+                <h6>Flap cross-body bag</h6>
+                <div class="icon">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="price">$59.0</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> 
+    <section class="container discount-Home pt-5  pb-5">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".2s">
+          <img src="assets/images/Fashion/discount.jpg" loading="lazy" width="100%" alt="img-discount">
+        </div>
+        <div class="col-lg-6 col-sm-12 discount wow fadeInRight" data-wow-duration="2s" data-wow-delay=".2s">
+          <div class="discount__text__title">
+            <h5>Discount</h5>
+            <h2>Summer 2026</h2>
+            <h5>Sale <span>50%</span></h5>
+          </div>
+          <div class="discount__countdown" id="countdown-time">
+            <div class="countdown__item">
+              <span id="Day"></span>
+              <p>Day</p> 
+            </div>
+            <div class="countdown__item">
+              <span id="houers"></span>
+              <p>Hour</p>
+            </div>
+            <div class="countdown__item">
+              <span id="minute"></span>
+              <p>Min</p>
+            </div>
+            <div class="countdown__item">
+              <span id="seconds"></span>
+              <p>Sec</p>
+            </div>
+          </div>
+          <a href="Fashion.html">Shop now</a>
+        </div>
+      </div>
+    </section>
+    <section class="container icon-service pt-5 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+      <div class="row">
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images/logo/service-1.png" loading="lazy" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Free Shiping</h4>
+                      <p>All orders over <span>$150</span></p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-2.png" loading="lazy" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Quick Payment</h4>
+                      <p>100% secure payment</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-3.png" loading="lazy" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>Free Returns</h4>
+                      <p>Money back in 30 days</p>
+                  </div>
+              </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 d-flex justify-content-center mb-5">
+              <div class="card-Shiping">
+                  <div class="card-icon">
+                      <img src="assets/images//logo/service-4.png" loading="lazy" alt="img">
+                  </div>
+                  <div class="title">
+                      <h4>24/7 Support</h4>
+                      <p>Get Quick Suppor</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <section class="container-fluid pt-5 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+      <div class="row images">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images/Fashion/insta-1.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-2.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-3.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-4.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-5.jpg" loading="lazy">
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+              <img src="assets/images//Fashion/insta-6.jpg" loading="lazy">
+          </div>
+      </div>
+    </section>
+    <section>
+      <button id="scrollToTopBtn"><i class="fa-solid fa-chevron-up"></i></button>
+    </section>
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
+      <section class="Links"> 
+          <div class="container-fluid text-center text-md-start mt-5 mb-5">
+              <div class="row mt-3">
+                <div class="col-xl-4 col-lg-4 col-md-4 mx-xl-4 mb-4">
+                  <img src="assets/images//logo/logo.png" alt="logo">
+                  <p class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt cilisis.</p>
+                  <div class="payment">
+                      <img src="assets/images//logo/payment-1.png" loading="lazy">
+                      <img src="assets/images//logo/payment-2.png" loading="lazy">
+                      <img src="assets/images//logo/payment-3.png" loading="lazy">
+                      <img src="assets/images//logo/payment-4.png" loading="lazy">
+                      <img src="assets/images//logo/payment-5.png" loading="lazy">
+                  </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Quick links</h6>
+                  <p><a href="#!">Home</a></p>
+                  <p><a href="About.html">About</a></p>
+                  <p><a href="Blog.html">Blog</a></p>
+                  <p><a href="contact.html">contact</a></p>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-2 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">Account</h6>
+                  <p><a href="#!">My Account</a></p>
+                  <p><a href="Shopping-cart.html">Orders cart</a></p>
+                  <p><a href="checkout.html ">Checkout</a></p>
+                  <p><a href="Wishlist.html">Wishlist</a></p>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-4 mb-4">
+                  <h6 class="text-uppercase fw-bold mb-4">NEWSLETTER</h6>
+                  <form action="#">
+                    <button type="submit" class="site-btn">Subscribe</button>
+                    <input type="email" name="email" placeholder="Email">
+                  </form>
+                  <div class="icon mt-3">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-google"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-linkedin"></i>
+                    <i class="fab fa-github"></i>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <div class="Copyright" >
+          <p>Copyright © 2026 All rights reserved | This template is made with  <i class="fa-solid fa-heart"></i> by youssef osama</p>
+      </div>
+      <!-- Copyright -->
+    </footer>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="assets/js\bootstrap.bundle.min.js"></script>
+  <script src="assets/js\wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert2/11.23.0/sweetalert2.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
+  <script src="assets/js/wishlist.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cart.js"></script>
+</html>

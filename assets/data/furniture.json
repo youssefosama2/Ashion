@@ -1,0 +1,156 @@
+[
+  {
+    "id": 1,
+    "title": "Living room",
+    "price": 600,
+    "category": "Living-room",
+    "image": "assets/images/furniture/room/stylish-modern-living-room-with-cozy-furniture-artful-decor_1294860-180151.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Living room",
+    "price": 500,
+    "category": "Living-room",
+    "image": "assets/images/furniture/room/modern-living-room-interior-design.webp"
+  },
+  {
+    "id": 3,
+    "title": "Living room",
+    "price": 550,
+    "category": "Living-room",
+    "image": "assets/images/furniture/room/modern-comfortable-living-room-with-stylish-decor-furnishing.webp"
+  },
+    {
+    "id": 4,
+    "title": "Living room",
+    "price": 500,
+    "category": "Living-room",
+    "image": "assets/images/furniture/room/modern-living-room-with-natural-light.webp"
+  },
+  {
+    "id": 5,
+    "title": "Living room",
+    "price": 600,
+    "category": "Living-room",
+    "image": "assets/images/furniture/room/minimal-furniture-living-room-simple-minimalistic-furniture-furniture-interior-design_71956-42163.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Living room",
+    "price": 500,
+    "category": "Living-room",
+    "image": "assets/images/furniture/room/3d-rendering-interior-modern-living-room-white-carpet-parquet-floor-photo-frame-modern-furniture-set_1155130-7677.jpg"
+  },
+    {
+    "id": 7,
+    "title": "Living room",
+    "price": 550,
+    "category": "Living-room",
+    "image": "assets/images/furniture/room/realistic-interior-design-with-furniture.webp"
+  },
+  {
+    "id": 8,
+    "title": "Living room",
+    "price": 600,
+    "category": "Living-room",
+    "image": "assets/images/furniture/room/mid-century-modern-living-room-furniture-architecture-chair_53876-218204.jpg"
+  },
+  {
+    "id": 9,
+    "title": "Sofa Gray",
+    "price": 200,
+    "category": "Sofa",
+    "image": "assets/images/furniture/sofa/pexels-artbovich-6588592.webp"
+  },
+    {
+    "id": 10,
+    "title": "Sofa blue",
+    "price": 250,
+    "category": "Sofa",
+    "image": "assets/images/furniture/sofa/pexels-artbovich-7598117.webp"
+  },
+  {
+    "id": 11,
+    "title": "Sofa Brown",
+    "price": 250,
+    "category": "Sofa",
+    "image": "assets/images/furniture/sofa/pexels-marko-stojkovic-1187731-17264274.webp"
+  },
+  {
+    "id": 12,
+    "title": "Sofa White",
+    "price": 200,
+    "category": "Sofa",
+    "image": "assets/images/furniture/sofa/pexels-olly-3757055.webp"
+  },
+  {
+    "id": 13,
+    "title": "Sofa blue",
+    "price": 650,
+    "category": "Sofa",
+    "image": "assets/images/furniture/sofa/stylish-modern-velour-blue-sofa-sofa-bed-with-cushions-home-interior-upholstered-furniture-store-interior-design-cosiness-concept_328764-10218.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Sofa Gray",
+    "price": 150,
+    "category": "Sofa",
+    "image": "assets/images/furniture/sofa/pexels-ana-victoria-valverde-598586189-36573323.webp"
+  },
+  {
+    "id": 15,
+    "title": "Sofa Green",
+    "price": 250,
+    "category": "Sofa",
+    "image": "assets/images/furniture/sofa/pexels-theamritdev-26579445.webp"
+  },
+  {
+    "id": 16,
+    "title": "chair green",
+    "price": 100,
+    "category": "chair",
+    "image": "assets/images/furniture/chair/photo-modern-luxury-arm-chair-furniture-design_763111-22102.jpg"
+  },
+  {
+    "id": 17,
+    "title": "chair white",
+    "price": 80,
+    "category": "chair",
+    "image": "assets/images/furniture/chair/blue-armchair-isolated-white-background_107791-29553.jpg"
+  },
+  {
+    "id": 18,
+    "title": "chair Red",
+    "price": 90,
+    "category": "chair",
+    "image": "assets/images/furniture/chair/chair-realistic-illustration_1284-9507.jpg"
+  },
+    {
+    "id": 19,
+    "title": "chair orange",
+    "price": 100,
+    "category": "chair",
+    "image": "assets/images/furniture/chair/photo-modern-luxury-arm-chair-furniture-design_763111-22116.jpg"
+  },
+  {
+    "id": 20,
+    "title": "chair green",
+    "price": 85,
+    "category": "chair",
+    "image": "assets/images/furniture/chair/modern-classic-green-velvet-sofa-isolated-white-background-furniture-store-collection_584012-1420.jpg"
+  },
+  {
+    "id": 21,
+    "title": "chair gray",
+    "price": 90,
+    "category": "chair",
+    "image": "assets/images/furniture/chair/modern-walnut-armchair_1263815-13602.jpg"
+  },
+    {
+    "id": 22,
+    "title": "chair blue",
+    "price": 100,
+    "category": "chair",
+    "image": "assets/images/furniture/chair/light-blue-mid-century-modern-armchair-with-wooden-frame_1188434-356.jpg"
+  }
+]
