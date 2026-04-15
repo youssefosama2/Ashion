@@ -166,8 +166,6 @@ emailjs.send("service_dmoivft", "template_qlnapfo", {
         localStorage.removeItem("discount");
         window.location.href = "index.html";
       });
-    }).catch(() => {
-      Swal.fire("Error", "Failed to send email ❌", "error");
-    });
+    })
   }
 }

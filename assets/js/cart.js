@@ -2,18 +2,17 @@
 // Cart Count
 // ==========================
 function updateCartCount() {
-    // جلب بيانات السلة من localStorage
     let cart = JSON.parse(localStorage.getItem("cart")) || [];
-    // حساب مجموع الكميات
+
     let count = cart.reduce((total, product) => total + product.quantity, 0);
-    // تحديد عنصر العداد في HTML
+    
     let cartCount = document.getElementById("cart-count");
     if (cartCount) {
         if (count > 0) {
             cartCount.innerText = count;
-            cartCount.style.display = "flex"; // عرض العداد
+            cartCount.style.display = "flex"; 
         } else {
-            cartCount.style.display = "none"; // اخفاء العداد لو 0
+            cartCount.style.display = "none"; 
         }
     }
 }

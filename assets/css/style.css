@@ -1133,6 +1133,11 @@ cursor:pointer;
 .All-pro .checkbox input[type="checkbox"]{
   accent-color: #ca1515;
 }
+@media (max-width:768px){
+  .All-pro .size , .All-pro .color{
+    display: none;
+  }
+}
 /* button next product */
 .pagination{
 display:flex;

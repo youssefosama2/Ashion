@@ -36,7 +36,6 @@ item.id == id && item.category == category
 );
 
 if (existing) {
-existing.quantity += 1;
 Swal.fire({
 title: "The product already exists",
 icon: "warning",

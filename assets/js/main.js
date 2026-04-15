@@ -199,14 +199,15 @@ function changePage(page){
 
 let pages = Math.ceil(filteredProducts.length / itemsPerPage);
 
-// منع الخروج من الصفحات
 if(page < 1) page = 1;
 if(page > pages) page = pages;
 
 currentPage = page;
 
 displayProducts();
-
+document.getElementById("products").scrollIntoView({
+behavior: "smooth"
+});
 }
 
 function createPagination(){
@@ -424,6 +425,16 @@ scrollToTopBtn.addEventListener("click", function() {
         behavior: "smooth"
     });
 });
+
+
+
+
+
+
+
+
+
+
 
 
 
